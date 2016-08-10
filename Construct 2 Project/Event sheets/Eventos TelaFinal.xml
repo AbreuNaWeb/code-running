@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Eventos TelaFinal</name>
+    <events>
+        <event-block sid="2194678124394929">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="6119938711557799" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">botao_voltar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-25" name="Go to layout (by name)" sid="9863963175316761" type="System">
+                    <param id="0" name="Layout">&quot;Tela4Fase2&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9183833834908329">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="8191754744076428" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">reset</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-25" name="Go to layout (by name)" sid="8986361453299708" type="System">
+                    <param id="0" name="Layout">&quot;Tela1Fase1&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8190324978572328">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="3779486925473674" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">botao_salvar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-36" name="Save" sid="6191232513838449" type="System">
+                    <param id="0" name="Slot">&quot;mysave&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="587479692321534" type="System">
+                    <param id="0" name="Seconds">120</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5084683260709961">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="9692565724474335" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">botao_carregar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-37" name="Load" sid="8527108806815535" type="System">
+                    <param id="0" name="Slot">&quot;mysave&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

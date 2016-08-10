@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Eventos TelaCarregar2</name>
+    <events>
+        <event-block sid="5288648493872535">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="5072845069653303" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="9889596828680852" type="System">
+                    <param id="0" name="Seconds">5.0</param>
+                </action>
+                <action id="-25" name="Go to layout (by name)" sid="2584964268455232" type="System">
+                    <param id="0" name="Layout">&quot;Tela1Fase2&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

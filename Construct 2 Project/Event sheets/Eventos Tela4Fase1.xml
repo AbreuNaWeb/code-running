@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Eventos Tela4Fase1</name>
+    <events>
+        <event-block sid="3315131472721377">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="1500476909160863" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Pin" id="0" name="Pin to object" sid="1471970501344354" type="simon_andando">
+                    <param id="0" name="Pin to">player_Tela2Fase2</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action id="2" name="Stop" sid="4096978873946617" type="simon_andando" />
+                <action behavior="Pin" id="0" name="Pin to object" sid="9129363149938945" type="Opcao1">
+                    <param id="0" name="Pin to">pergunta2</param>
+                    <param id="1" name="Mode">1</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="9390451371112478" type="fecharfolha">
+                    <param id="0" name="Pin to">texto2</param>
+                    <param id="1" name="Mode">1</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="9643124591028385" type="opcao2">
+                    <param id="0" name="Pin to">pergunta2</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="3304130643426002" type="Opcao3">
+                    <param id="0" name="Pin to">pergunta2</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="6114009440573102" type="okbut2">
+                    <param id="0" name="Pin to">pergaminho_bau</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="7723635886231387" type="fecharfolha3">
+                    <param id="0" name="Pin to">pergaminho_bau</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8994368069650505">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="2692452359563855" type="Keyboard">
+                    <param id="0" name="Key">37 (Left arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="8363576654636399" type="simon_andando">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="3" name="Start" sid="9478640251727339" type="simon_andando">
+                    <param id="0" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="159039588772819">
+            <conditions>
+                <condition id="3" name="On key released" sid="5478518641591316" type="Keyboard">
+                    <param id="0" name="Key">37 (Left arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="2" name="Stop" sid="4632243481192413" type="simon_andando" />
+                <action id="5" name="Set frame" sid="5359679437074124" type="simon_andando">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9280605403803376">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="1434246644435621" type="Keyboard">
+                    <param id="0" name="Key">39 (Right arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="3511863127813092" type="simon_andando">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="3" name="Start" sid="7517608847278175" type="simon_andando">
+                    <param id="0" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5743324913146833">
+            <conditions>
+                <condition id="3" name="On key released" sid="2893626392963239" type="Keyboard">
+                    <param id="0" name="Key">39 (Right arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="2" name="Stop" sid="5247261774590046" type="simon_andando" />
+                <action id="5" name="Set frame" sid="1137536143913135" type="simon_andando">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2170598947636601">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="3162249600402634" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">botao_recomecar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-25" name="Go to layout (by name)" sid="5213318306859095" type="System">
+                    <param id="0" name="Layout">&quot;Tela4Fase1&quot;</param>
+                </action>
+                <action id="-13" name="Set time scale" sid="7757366334429065" type="System">
+                    <param id="0" name="Time scale">1.0</param>
+                </action>
+                <action id="-21" name="Reset global variables" sid="8315422439168699" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="6555122162857">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="3725158546712821" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">botao_salvar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-36" name="Save" sid="931528361426675" type="System">
+                    <param id="0" name="Slot">&quot;mysave&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="4462856636762947" type="System">
+                    <param id="0" name="Seconds">120</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1221123090009607">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="2454690742018769" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">botao_carregar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-37" name="Load" sid="7311750702263463" type="System">
+                    <param id="0" name="Slot">&quot;mysave&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2076052168255983">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="9990327415188315" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">botao_voltar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-25" name="Go to layout (by name)" sid="5356494171321766" type="System">
+                    <param id="0" name="Layout">&quot;Tela3Fase1&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8336662468306834">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="5186671644844084" type="simon_andando">
+                    <param id="0" name="Object">pergaminho_Tela4Fase2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="6552808055113164" type="pergaminho_Tela4Fase2" />
+                <action id="-3" name="Set position" sid="9406374507367379" type="texto2">
+                    <param id="0" name="X">644</param>
+                    <param id="1" name="Y">390</param>
+                </action>
+                <action id="-13" name="Set time scale" sid="94884039412431" type="System">
+                    <param id="0" name="Time scale">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5135408373027468">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="8753052974200188" type="simon_andando">
+                    <param id="0" name="Object">encostar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="5205283082442363" type="pergunta2">
+                    <param id="0" name="X">862</param>
+                    <param id="1" name="Y">383</param>
+                </action>
+                <action id="-13" name="Set time scale" sid="5347147305272144" type="System">
+                    <param id="0" name="Time scale">0</param>
+                </action>
+                <action id="-14" name="Set object time scale" sid="9537698600885278" type="System">
+                    <param id="0" name="Object">icon_vida</param>
+                    <param id="1" name="Time scale">1.0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8024797145621802">
+            <conditions>
+                <condition id="0" name="On clicked" sid="1705208432502986" type="opcao2" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="9696993100207978" type="encostar" />
+                <action id="-9" name="Destroy" sid="9433672444003008" type="pergunta2" />
+                <action id="-9" name="Destroy" sid="2497777540189041" type="icone_bau" />
+                <action id="-9" name="Destroy" sid="1496901705425884" type="Opcao3" />
+                <action id="-9" name="Destroy" sid="300427085023682" type="opcao2" />
+                <action id="-9" name="Destroy" sid="3442503450137432" type="Opcao1" />
+                <action id="-13" name="Set time scale" sid="4059455563926191" type="System">
+                    <param id="0" name="Time scale">1.0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7104495117932732">
+            <conditions>
+                <condition id="0" name="On clicked" sid="8788490724996367" type="Opcao1" />
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="8975981663563936" type="System">
+                    <param id="0" name="Variable">vida_Simon</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="937344990141882" type="vida_Simon">
+                    <param id="0" name="Frame number">vida_Simon</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1951809439073803">
+            <conditions>
+                <condition id="0" name="On clicked" sid="9086324656836488" type="Opcao3" />
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="4243020319300082" type="System">
+                    <param id="0" name="Variable">vida_Simon</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="4924218789074208" type="vida_Simon">
+                    <param id="0" name="Frame number">vida_Simon</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4691177879180553">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="4039644364635224" type="System">
+                    <param id="0" name="Variable">vida_Simon</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="1892981918931261" type="simon_andando" />
+                <action id="-9" name="Destroy" sid="8710387616384027" type="pergunta2" />
+                <action id="-9" name="Destroy" sid="8242482294017105" type="Opcao1" />
+                <action id="-9" name="Destroy" sid="1771719911511156" type="opcao2" />
+                <action id="-9" name="Destroy" sid="3233464308438938" type="Opcao3" />
+                <action id="-3" name="Set position" sid="4896058147319452" type="icon_gameover">
+                    <param id="0" name="X">585</param>
+                    <param id="1" name="Y">423</param>
+                </action>
+                <action id="-13" name="Set time scale" sid="8551230170247946" type="System">
+                    <param id="0" name="Time scale">0.0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4431947736234291">
+            <conditions>
+                <condition id="0" name="On clicked" sid="4956507987513392" type="fecharfolha" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="8847721392803264" type="texto2" />
+                <action id="-13" name="Set time scale" sid="1391458804410827" type="System">
+                    <param id="0" name="Time scale">1.0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="5899262567501311" type="fecharfolha" />
+            </actions>
+        </event-block>
+        <event-block sid="598477172538511">
+            <conditions>
+                <condition id="0" name="On clicked" sid="9838078279517185" type="fecharfolha3" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="2058209606593767" type="pergaminho_bau" />
+                <action id="-9" name="Destroy" sid="9031060401411215" type="outro_pergaminho" />
+                <action id="-9" name="Destroy" sid="3674989792960753" type="fecharfolha3" />
+                <action id="-13" name="Set time scale" sid="9604628311846649" type="System">
+                    <param id="0" name="Time scale">1.0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1264004724041007">
+            <conditions>
+                <condition id="-19" name="On destroyed" sid="4293862195228453" type="icone_bau" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="9458488661484204" type="outro_pergaminho">
+                    <param id="0" name="X">825</param>
+                    <param id="1" name="Y">668</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4764307920407277">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="4282851437529383" type="outro_pergaminho">
+                    <param id="0" name="Object">simon_andando</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="2696010274615166" type="pergaminho_bau">
+                    <param id="0" name="X">594</param>
+                    <param id="1" name="Y">430</param>
+                </action>
+                <action id="-9" name="Destroy" sid="4969720116093518" type="pergaminho_Tela4Fase2" />
+                <action id="-13" name="Set time scale" sid="7465906819532701" type="System">
+                    <param id="0" name="Time scale">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="463739998982916">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="8709233209642282" type="proxima_etapa">
+                    <param id="0" name="Object">simon_andando</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="4450462287667311" type="System">
+                    <param id="0" name="Layout">Tela5Fase1</param>
+                </action>
+                <action id="-21" name="Reset global variables" sid="5793778064216954" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="7735594233001978">
+            <conditions>
+                <condition id="0" name="On clicked" sid="9357205328316318" type="okbut2" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="119600565329935" type="pergaminho_bau" />
+                <action id="-13" name="Set time scale" sid="3043112670335735" type="System">
+                    <param id="0" name="Time scale">1.0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="5272476981627844" type="okbut2" />
+                <action id="-13" name="Set time scale" sid="59628095804302" type="System">
+                    <param id="0" name="Time scale">1.0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

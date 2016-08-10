@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs />
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1" />
+    <folders-expanded>
+        <folder expanded="0" path="object-folder/" />
+        <folder expanded="0" path="object-folder/Padrão/" />
+        <folder expanded="0" path="object-folder/Fase2Tela1/" />
+        <folder expanded="0" path="object-folder/Fase2Tela2/" />
+        <folder expanded="0" path="object-folder/Fase2Tela3/" />
+        <folder expanded="0" path="object-folder/Fase2Tela4/" />
+        <folder expanded="0" path="object-folder/Fase1Tela1/" />
+        <folder expanded="1" path="object-folder/TelaInicial/" />
+        <folder expanded="0" path="object-folder/Fase1Tela3/" />
+        <folder expanded="0" path="object-folder/Fase1Tela2/" />
+        <folder expanded="0" path="object-folder/Fase1Tela4/" />
+        <folder expanded="0" path="object-folder/Fase1Tela5/" />
+        <folder expanded="0" path="object-folder/TelaFinal/" />
+        <folder expanded="1" path="object-folder/TelaLoading/" />
+        <folder expanded="0" path="layout-folder/" />
+        <folder expanded="0" path="layout-folder/Fase1/" />
+        <folder expanded="0" path="layout-folder/Fase2/" />
+        <folder expanded="0" path="event-folder/" />
+        <folder expanded="0" path="event-folder/Fase2/" />
+        <folder expanded="0" path="event-folder/Fase1/" />
+        <folder expanded="0" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/botao_carregar/" />
+        <folder expanded="1" path="animation-folder/botao_recomecar/" />
+        <folder expanded="1" path="animation-folder/botao_salvar/" />
+        <folder expanded="1" path="animation-folder/icon_gameover/" />
+        <folder expanded="1" path="animation-folder/icone_comandos/" />
+        <folder expanded="1" path="animation-folder/informacao1_tela2Fase2/" />
+        <folder expanded="1" path="animation-folder/vida_Simon/" />
+        <folder expanded="1" path="animation-folder/coin1_tela2Fase2/" />
+        <folder expanded="1" path="animation-folder/icone_proximafase/" />
+        <folder expanded="1" path="animation-folder/informacao2_tela2Fase2/" />
+        <folder expanded="1" path="animation-folder/pergaminho_tela2Fase2/" />
+        <folder expanded="1" path="animation-folder/informacao3_tela2Fase2/" />
+        <folder expanded="1" path="animation-folder/coin2_tela2Fase2/" />
+        <folder expanded="1" path="animation-folder/icone_pedra/" />
+        <folder expanded="1" path="animation-folder/icone_quadroBoss/" />
+        <folder expanded="1" path="animation-folder/botao_falaBoss/" />
+        <folder expanded="1" path="animation-folder/icone_espinhos/" />
+        <folder expanded="1" path="animation-folder/icon_VidaBoss/" />
+        <folder expanded="1" path="animation-folder/icone_espada/" />
+        <folder expanded="1" path="animation-folder/icone_espada2/" />
+        <folder expanded="1" path="animation-folder/pergaminho_Tela4Fase2/" />
+        <folder expanded="1" path="animation-folder/menu_cima/" />
+        <folder expanded="1" path="animation-folder/player_Tela2Fase2/" />
+        <folder expanded="1" path="animation-folder/player_Tela4Fase2/" />
+        <folder expanded="1" path="animation-folder/simon_andando/" />
+        <folder expanded="1" path="animation-folder/botao_voltar/" />
+        <folder expanded="1" path="animation-folder/menu_lateral/" />
+        <folder expanded="1" path="animation-folder/sprite_explosao/" />
+        <folder expanded="1" path="animation-folder/proxima_etapa/" />
+        <folder expanded="1" path="animation-folder/parede/" />
+        <folder expanded="1" path="animation-folder/outro_pergaminho/" />
+        <folder expanded="1" path="animation-folder/erro/" />
+        <folder expanded="1" path="animation-folder/icone_Pergaminho_F2T1/" />
+        <folder expanded="1" path="animation-folder/pergaminho2_F2T1/" />
+        <folder expanded="1" path="animation-folder/pergaminho1_F2T1/" />
+        <folder expanded="1" path="animation-folder/fundo_F2T1/" />
+        <folder expanded="1" path="animation-folder/chao1_F2T1/" />
+        <folder expanded="1" path="animation-folder/chao1_F2T2/" />
+        <folder expanded="1" path="animation-folder/chao2_F2T2/" />
+        <folder expanded="1" path="animation-folder/chao3_F2T2/" />
+        <folder expanded="1" path="animation-folder/chao4_F2T2/" />
+        <folder expanded="1" path="animation-folder/chao5_F2T2/" />
+        <folder expanded="1" path="animation-folder/chao6_F2T2/" />
+        <folder expanded="1" path="animation-folder/paredePedras_F2T2/" />
+        <folder expanded="1" path="animation-folder/caixa1_F2T2/" />
+        <folder expanded="1" path="animation-folder/caixa2_F2T2/" />
+        <folder expanded="1" path="animation-folder/caixa3_F2T2/" />
+        <folder expanded="1" path="animation-folder/caixa4_F2T2/" />
+        <folder expanded="1" path="animation-folder/goblinVoador_F2T2/" />
+        <folder expanded="1" path="animation-folder/goblin2_F2T2/" />
+        <folder expanded="1" path="animation-folder/goblin3_F2T2/" />
+        <folder expanded="1" path="animation-folder/goblin4_F2T2/" />
+        <folder expanded="1" path="animation-folder/icone_certo/" />
+        <folder expanded="1" path="animation-folder/chao1_F2T3/" />
+        <folder expanded="1" path="animation-folder/fundo_F2T3/" />
+        <folder expanded="1" path="animation-folder/goblin1_F2T3/" />
+        <folder expanded="1" path="animation-folder/goblin2_F2T3/" />
+        <folder expanded="1" path="animation-folder/goblin3_F2T3/" />
+        <folder expanded="1" path="animation-folder/goblin4_F2T3/" />
+        <folder expanded="1" path="animation-folder/chao1_F2T4/" />
+        <folder expanded="1" path="animation-folder/chao2_F2T4/" />
+        <folder expanded="1" path="animation-folder/chao3_F2T4/" />
+        <folder expanded="1" path="animation-folder/chao4_F2T4/" />
+        <folder expanded="1" path="animation-folder/boss_F2T4/" />
+        <folder expanded="1" path="animation-folder/fundo_F2T4/" />
+        <folder expanded="1" path="animation-folder/pergaminho1_F2T4/" />
+        <folder expanded="1" path="animation-folder/barLeft/" />
+        <folder expanded="1" path="animation-folder/barRight/" />
+        <folder expanded="1" path="animation-folder/minmov2/" />
+        <folder expanded="1" path="animation-folder/minmov/" />
+        <folder expanded="1" path="animation-folder/icon_vida/" />
+        <folder expanded="1" path="animation-folder/inimigoPerguntas/" />
+        <folder expanded="1" path="animation-folder/pergaminho1/" />
+        <folder expanded="1" path="animation-folder/pergunta1/" />
+        <folder expanded="1" path="animation-folder/texto1/" />
+        <folder expanded="1" path="animation-folder/aproximacao/" />
+        <folder expanded="1" path="animation-folder/falasabio/" />
+        <folder expanded="1" path="animation-folder/sabio/" />
+        <folder expanded="1" path="animation-folder/bau/" />
+        <folder expanded="1" path="animation-folder/pergaminho2/" />
+        <folder expanded="1" path="animation-folder/pergunta2/" />
+        <folder expanded="1" path="animation-folder/texto2/" />
+        <folder expanded="1" path="animation-folder/vidaV2/" />
+        <folder expanded="1" path="animation-folder/pergaminho_bau/" />
+        <folder expanded="1" path="animation-folder/icone_bau/" />
+        <folder expanded="1" path="animation-folder/encostar/" />
+        <folder expanded="1" path="animation-folder/Inimigo1/" />
+        <folder expanded="1" path="animation-folder/Erva_Espinho_HD_2Cópia/" />
+        <folder expanded="1" path="animation-folder/inimigo2/" />
+        <folder expanded="1" path="animation-folder/inimigo3/" />
+        <folder expanded="1" path="animation-folder/pergaminho3/" />
+        <folder expanded="1" path="animation-folder/pergunta3/" />
+        <folder expanded="1" path="animation-folder/texto3/" />
+        <folder expanded="1" path="animation-folder/quadro/" />
+        <folder expanded="1" path="animation-folder/fundo/" />
+        <folder expanded="1" path="animation-folder/Sprite4/" />
+        <folder expanded="1" path="animation-folder/reset/" />
+        <folder expanded="1" path="animation-folder/fundo_loading/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/Sprite5/" />
+        <folder expanded="1" path="animation-folder/Sprite3/" />
+    </folders-expanded>
+</c2uistate>

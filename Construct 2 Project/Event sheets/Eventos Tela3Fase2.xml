@@ -1,0 +1,626 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Eventos Tela3Fase2</name>
+    <events>
+        <variable constant="0" name="disparo_Simon2" sid="600698019123963" static="0" type="number">0</variable>
+        <variable constant="0" name="vida_Simon2" sid="9780001972013089" static="0" type="number">3</variable>
+        <event-block sid="5475805438700469">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="5505791559832293" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Pin" id="0" name="Pin to object" sid="8258267243079539" type="simon_andando">
+                    <param id="0" name="Pin to">player_Tela2Fase2</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action id="2" name="Stop" sid="3031927828512776" type="simon_andando" />
+                <action behavior="Pin" id="0" name="Pin to object" sid="3778891569856649" type="texto1_F2T2">
+                    <param id="0" name="Pin to">caixa1_F2T2</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="5800470903838236" type="botao3_F2T2">
+                    <param id="0" name="Pin to">caixa1_F2T2</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action id="-13" name="Set time scale" sid="1972471380745577" type="System">
+                    <param id="0" name="Time scale">1.0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="8006402376597378" type="texto2_F2T2">
+                    <param id="0" name="Pin to">caixa2_F2T2</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="5357341231363995" type="botao1_F2T2">
+                    <param id="0" name="Pin to">caixa2_F2T2</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action id="-13" name="Set time scale" sid="8032188583965522" type="System">
+                    <param id="0" name="Time scale">1.0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="6979914544772101" type="texto3_F2T2">
+                    <param id="0" name="Pin to">caixa3_F2T2</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="9497262983329629" type="botao4_F2T2">
+                    <param id="0" name="Pin to">caixa3_F2T2</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action id="-13" name="Set time scale" sid="7756440303824395" type="System">
+                    <param id="0" name="Time scale">1.0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="250051983275297" type="texto4_F2T2">
+                    <param id="0" name="Pin to">caixa4_F2T2</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="9844507362151587" type="botao2_F2T2">
+                    <param id="0" name="Pin to">caixa4_F2T2</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6690272798080327">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="3079544646390583" type="Keyboard">
+                    <param id="0" name="Key">68 (D)</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="2516293282211214" type="System">
+                    <param id="0" name="Variable">disparo_Simon</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="1124444551036117" type="player_Tela2Fase2">
+                    <param id="0" name="Object">icone_espada</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="Image point">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="3005223811050211" type="System">
+                    <param id="0" name="Variable">disparo_Simon</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="3570892103980281" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-9" name="Set value" sid="4941303847164336" type="System">
+                    <param id="0" name="Variable">disparo_Simon</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6644006725555198">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="172057954465508" type="Keyboard">
+                    <param id="0" name="Key">65 (A)</param>
+                </condition>
+                <condition id="7" name="Is mirrored" sid="9571194710814716" type="simon_andando" />
+                <condition id="-14" name="Compare variable" sid="7497664618835656" type="System">
+                    <param id="0" name="Variable">disparo_Simon</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="5514866290104426" type="player_Tela2Fase2">
+                    <param id="0" name="Object">icone_espada2</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="Image point">2</param>
+                </action>
+                <action behavior="Bullet" id="3" name="Set angle of motion" sid="6074266364134381" type="icone_espada2">
+                    <param id="0" name="Angle">180</param>
+                </action>
+                <action id="-9" name="Set value" sid="2765415211864172" type="System">
+                    <param id="0" name="Variable">disparo_Simon</param>
+                    <param id="1" name="Value">2</param>
+                </action>
+                <action id="-16" name="Wait" sid="6730442103947569" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-9" name="Set value" sid="2408569535692486" type="System">
+                    <param id="0" name="Variable">disparo_Simon</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9056973235574653">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="7933928707165418" type="Keyboard">
+                    <param id="0" name="Key">37 (Left arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="8888667359519395" type="simon_andando">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="3" name="Start" sid="3981064483691016" type="simon_andando">
+                    <param id="0" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7097818504319243">
+            <conditions>
+                <condition id="3" name="On key released" sid="5484428150395121" type="Keyboard">
+                    <param id="0" name="Key">37 (Left arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="2" name="Stop" sid="8698850030396211" type="simon_andando" />
+                <action id="5" name="Set frame" sid="2048962844686987" type="simon_andando">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6864413501961183">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="3803890245001517" type="Keyboard">
+                    <param id="0" name="Key">39 (Right arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="8319742021416217" type="simon_andando">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="3" name="Start" sid="3048264639245369" type="simon_andando">
+                    <param id="0" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5692241781667057">
+            <conditions>
+                <condition id="3" name="On key released" sid="711182492425082" type="Keyboard">
+                    <param id="0" name="Key">39 (Right arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="2" name="Stop" sid="9733902144857514" type="simon_andando" />
+                <action id="5" name="Set frame" sid="720226199089547" type="simon_andando">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2796156681373173">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="1729679619662194" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">botao_recomecar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-25" name="Go to layout (by name)" sid="6944242791040708" type="System">
+                    <param id="0" name="Layout">&quot;Tela3Fase2&quot;</param>
+                </action>
+                <action id="-13" name="Set time scale" sid="6396264757293963" type="System">
+                    <param id="0" name="Time scale">1.0</param>
+                </action>
+                <action id="-21" name="Reset global variables" sid="9137734571646548" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="1944685270990861">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="9549114844502951" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">botao_salvar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-36" name="Save" sid="5863298043248082" type="System">
+                    <param id="0" name="Slot">&quot;mysave&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="8177066312846835" type="System">
+                    <param id="0" name="Seconds">120</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4488888932193979">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="3365901496196256" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">botao_carregar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-37" name="Load" sid="4817045626476455" type="System">
+                    <param id="0" name="Slot">&quot;mysave&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9165783975565877">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="6755985974325317" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">botao_voltar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-25" name="Go to layout (by name)" sid="6968339446300371" type="System">
+                    <param id="0" name="Layout">&quot;Tela2Fase2&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2297720167995699">
+            <conditions>
+                <condition id="-3" name="Is on-screen" sid="1510669574222098" type="goblin4_F2T3" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="4424937065922954">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="4077294933589398" type="System">
+                            <param id="0" name="Interval (seconds)">2.0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="4442923588341218" type="goblin4_F2T3">
+                            <param id="0" name="Object">icone_espinhos</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-22" name="Set angle toward position" sid="1980236776686464" type="icone_espinhos">
+                            <param id="0" name="X">simon_andando.X</param>
+                            <param id="1" name="Y">simon_andando.Y</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="3378503109379222">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="1027514561136871" type="icone_espinhos">
+                    <param id="0" name="Object">simon_andando</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="4517590738969812" type="icone_espinhos" />
+                <action behavior="Flash" id="0" name="Flash" sid="8760384963500356" type="simon_andando">
+                    <param id="0" name="&apos;On&apos; time">0.1</param>
+                    <param id="1" name="&apos;Off&apos; time">0.1</param>
+                    <param id="2" name="Duration">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="6396807723021296" type="vida_Simon">
+                    <param id="0" name="Frame number">vida_Simon</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9296336606961423">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="6759726235573571" type="icone_espada">
+                    <param id="0" name="Object">goblin1_F2T3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="7894693605828744" type="goblin1_F2T3">
+                    <param id="0" name="Object">sprite_explosao</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="8208111703351101" type="goblin1_F2T3" />
+                <action id="-9" name="Destroy" sid="1851484224371299" type="icone_espada" />
+                <action id="-11" name="Add to" sid="9161685261994245" type="pontos">
+                    <param id="0" name="Instance variable">pontos</param>
+                    <param id="1" name="Value">100</param>
+                </action>
+                <action id="0" name="Set text" sid="1186318899767988" type="pontos">
+                    <param id="0" name="Text">pontos.pontos</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2908594308633844">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="7407669407293955" type="icone_espada2">
+                    <param id="0" name="Object">goblin1_F2T3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="628366208418149" type="goblin1_F2T3">
+                    <param id="0" name="Object">sprite_explosao</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="1774600950415055" type="goblin1_F2T3" />
+                <action id="-9" name="Destroy" sid="5053085225133601" type="icone_espada2" />
+                <action id="-11" name="Add to" sid="8450428414189756" type="pontos">
+                    <param id="0" name="Instance variable">pontos</param>
+                    <param id="1" name="Value">100</param>
+                </action>
+                <action id="0" name="Set text" sid="3538856856443356" type="pontos">
+                    <param id="0" name="Text">pontos.pontos</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6085414268025296">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="1530982631618892" type="icone_espada">
+                    <param id="0" name="Object">goblin2_F2T3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="8904209082903601" type="goblin2_F2T3">
+                    <param id="0" name="Object">sprite_explosao</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="2784739240575909" type="goblin2_F2T3" />
+                <action id="-9" name="Destroy" sid="3064305850049709" type="icone_espada" />
+                <action id="-11" name="Add to" sid="9561798456924096" type="pontos">
+                    <param id="0" name="Instance variable">pontos</param>
+                    <param id="1" name="Value">100</param>
+                </action>
+                <action id="0" name="Set text" sid="2412156301357319" type="pontos">
+                    <param id="0" name="Text">pontos.pontos</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2024823374057757">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="7112987256864692" type="icone_espada2">
+                    <param id="0" name="Object">goblin2_F2T3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="8889334137178718" type="goblin2_F2T3">
+                    <param id="0" name="Object">sprite_explosao</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="2102378559018961" type="goblin2_F2T3" />
+                <action id="-9" name="Destroy" sid="4893453248568514" type="icone_espada2" />
+                <action id="-11" name="Add to" sid="3793617965439744" type="pontos">
+                    <param id="0" name="Instance variable">pontos</param>
+                    <param id="1" name="Value">100</param>
+                </action>
+                <action id="0" name="Set text" sid="2316172737083608" type="pontos">
+                    <param id="0" name="Text">pontos.pontos</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7553991547414024">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="1992298117394835" type="icone_espada">
+                    <param id="0" name="Object">goblin3_F2T3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="3071072370637762" type="goblin3_F2T3">
+                    <param id="0" name="Object">sprite_explosao</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="9478888968298819" type="goblin3_F2T3" />
+                <action id="-9" name="Destroy" sid="6960028705887005" type="icone_espada" />
+                <action id="-11" name="Add to" sid="4952522183570917" type="pontos">
+                    <param id="0" name="Instance variable">pontos</param>
+                    <param id="1" name="Value">100</param>
+                </action>
+                <action id="0" name="Set text" sid="1364488439676383" type="pontos">
+                    <param id="0" name="Text">pontos.pontos</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3411951856630483">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="353943824189918" type="icone_espada2">
+                    <param id="0" name="Object">goblin3_F2T3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="7202288811308181" type="goblin3_F2T3">
+                    <param id="0" name="Object">sprite_explosao</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="362567235250056" type="goblin3_F2T3" />
+                <action id="-9" name="Destroy" sid="4605577167925176" type="icone_espada2" />
+                <action id="-11" name="Add to" sid="394130186249979" type="pontos">
+                    <param id="0" name="Instance variable">pontos</param>
+                    <param id="1" name="Value">100</param>
+                </action>
+                <action id="0" name="Set text" sid="9757520715700196" type="pontos">
+                    <param id="0" name="Text">pontos.pontos</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1722529650549807">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="1168143904346046" type="icone_espada">
+                    <param id="0" name="Object">goblin4_F2T3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="6644529906304911" type="goblin4_F2T3">
+                    <param id="0" name="Object">sprite_explosao</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="2341039531075843" type="goblin4_F2T3" />
+                <action id="-9" name="Destroy" sid="8935879073910176" type="icone_espada" />
+                <action id="-3" name="Set position" sid="4808918296594064" type="proxima_etapa">
+                    <param id="0" name="X">1588</param>
+                    <param id="1" name="Y">635</param>
+                </action>
+                <action id="-11" name="Add to" sid="6577875496862798" type="pontos">
+                    <param id="0" name="Instance variable">pontos</param>
+                    <param id="1" name="Value">300</param>
+                </action>
+                <action id="0" name="Set text" sid="6739931629556784" type="pontos">
+                    <param id="0" name="Text">pontos.pontos</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="124579534341967">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="7438531593295125" type="icone_espada2">
+                    <param id="0" name="Object">goblin4_F2T3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="4271653584387911" type="goblin4_F2T3">
+                    <param id="0" name="Object">sprite_explosao</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="445857978346716" type="goblin4_F2T3" />
+                <action id="-9" name="Destroy" sid="3020318469027061" type="icone_espada2" />
+                <action id="-3" name="Set position" sid="2465221722778867" type="proxima_etapa">
+                    <param id="0" name="X">1588</param>
+                    <param id="1" name="Y">635</param>
+                </action>
+                <action id="-11" name="Add to" sid="4460259363623288" type="pontos">
+                    <param id="0" name="Instance variable">pontos</param>
+                    <param id="1" name="Value">300</param>
+                </action>
+                <action id="0" name="Set text" sid="2825083069170769" type="pontos">
+                    <param id="0" name="Text">pontos.pontos</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7823178976884527">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="2612659178257662" type="simon_andando">
+                    <param id="0" name="Object">goblin1_F2T3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Flash" id="0" name="Flash" sid="1723221187825706" type="simon_andando">
+                    <param id="0" name="&apos;On&apos; time">0.1</param>
+                    <param id="1" name="&apos;Off&apos; time">0.1</param>
+                    <param id="2" name="Duration">1.0</param>
+                </action>
+                <action id="5" name="Set frame" sid="9798178381861173" type="vida_Simon">
+                    <param id="0" name="Frame number">vida_Simon</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7615138919562935">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="5522457953698458" type="simon_andando">
+                    <param id="0" name="Object">goblin2_F2T3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Flash" id="0" name="Flash" sid="2408330535389687" type="simon_andando">
+                    <param id="0" name="&apos;On&apos; time">0.1</param>
+                    <param id="1" name="&apos;Off&apos; time">0.1</param>
+                    <param id="2" name="Duration">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="7790339893991776" type="vida_Simon">
+                    <param id="0" name="Frame number">vida_Simon</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7975276956589289">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="9003337255349261" type="simon_andando">
+                    <param id="0" name="Object">goblin3_F2T3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Flash" id="0" name="Flash" sid="932322098107393" type="simon_andando">
+                    <param id="0" name="&apos;On&apos; time">0.1</param>
+                    <param id="1" name="&apos;Off&apos; time">0.1</param>
+                    <param id="2" name="Duration">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="2279882561510384" type="vida_Simon">
+                    <param id="0" name="Frame number">vida_Simon</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="359722046680947">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="7780701039652159" type="simon_andando">
+                    <param id="0" name="Object">goblin4_F2T3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Flash" id="0" name="Flash" sid="2258379400005609" type="simon_andando">
+                    <param id="0" name="&apos;On&apos; time">0.1</param>
+                    <param id="1" name="&apos;Off&apos; time">0.1</param>
+                    <param id="2" name="Duration">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="9507305097038317" type="vida_Simon">
+                    <param id="0" name="Frame number">vida_Simon</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5038535433621473">
+            <conditions>
+                <condition behavior="Flash" id="1" name="On flash ended" sid="269509590156658" type="simon_andando" />
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="9352088782791785" type="System">
+                    <param id="0" name="Variable">vida_Simon</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="8231543499442855" type="vida_Simon">
+                    <param id="0" name="Frame number">vida_Simon</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5775122184485392">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="3986258436034612" type="System">
+                    <param id="0" name="Variable">vida_Simon</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="6444413478727491" type="simon_andando" />
+                <action id="-9" name="Destroy" sid="406408666993186" type="icone_espada" />
+                <action id="-9" name="Destroy" sid="2986308880702495" type="icone_espada2" />
+                <action id="-9" name="Destroy" sid="2363783370656931" type="icone_espinhos" />
+                <action id="-13" name="Set time scale" sid="2234193451107265" type="System">
+                    <param id="0" name="Time scale">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="4352244116161824" type="icon_gameover">
+                    <param id="0" name="X">560</param>
+                    <param id="1" name="Y">420</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="912735592295279">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="9636536705367369" type="simon_andando">
+                    <param id="0" name="Object">coin2_tela2Fase2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="9968892523665772" type="coin2_tela2Fase2" />
+                <action id="-11" name="Add to" sid="2602889243264931" type="pontos">
+                    <param id="0" name="Instance variable">pontos</param>
+                    <param id="1" name="Value">50</param>
+                </action>
+                <action id="0" name="Set text" sid="4695324515748635" type="pontos">
+                    <param id="0" name="Text">pontos.pontos</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1560961159050169">
+            <conditions>
+                <condition id="-19" name="On destroyed" sid="3147596803599517" type="goblin4_F2T3" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="9830409483435091" type="proxima_etapa">
+                    <param id="0" name="X">1596</param>
+                    <param id="1" name="Y">633</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8954355221506045">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="191179095672688" type="simon_andando">
+                    <param id="0" name="Object">proxima_etapa</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-25" name="Go to layout (by name)" sid="2881092373665436" type="System">
+                    <param id="0" name="Layout">&quot;Tela4Fase2&quot;</param>
+                </action>
+                <action id="-21" name="Reset global variables" sid="1254415384553192" type="System" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

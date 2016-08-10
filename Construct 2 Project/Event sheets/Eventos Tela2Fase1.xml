@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Eventos Tela2Fase1</name>
+    <events>
+        <event-block sid="9836492386284664">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="9809567404111053" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Pin" id="0" name="Pin to object" sid="2006586690041052" type="simon_andando">
+                    <param id="0" name="Pin to">player_Tela2Fase2</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action id="2" name="Stop" sid="6694161959142065" type="simon_andando" />
+                <action behavior="Pin" id="0" name="Pin to object" sid="3439767602675396" type="okSabio">
+                    <param id="0" name="Pin to">falasabio</param>
+                    <param id="1" name="Mode">1</param>
+                </action>
+                <action id="-13" name="Set time scale" sid="4814093315505736" type="System">
+                    <param id="0" name="Time scale">1.0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="3994683828366798" type="falasabiotxt">
+                    <param id="0" name="Pin to">falasabio</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5667205847932962">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="9090139362510215" type="Keyboard">
+                    <param id="0" name="Key">37 (Left arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="6094588939665219" type="simon_andando">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="3" name="Start" sid="3320554088021029" type="simon_andando">
+                    <param id="0" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4204379123087522">
+            <conditions>
+                <condition id="3" name="On key released" sid="2056439081273446" type="Keyboard">
+                    <param id="0" name="Key">37 (Left arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="2" name="Stop" sid="3403749704790525" type="simon_andando" />
+                <action id="5" name="Set frame" sid="1821532972429181" type="simon_andando">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8258336915901421">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="8158812738132685" type="Keyboard">
+                    <param id="0" name="Key">39 (Right arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="348376506294041" type="simon_andando">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="3" name="Start" sid="1004994644865766" type="simon_andando">
+                    <param id="0" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7739574887028313">
+            <conditions>
+                <condition id="3" name="On key released" sid="2737027702168949" type="Keyboard">
+                    <param id="0" name="Key">39 (Right arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="2" name="Stop" sid="2506848801103309" type="simon_andando" />
+                <action id="5" name="Set frame" sid="7727196636539164" type="simon_andando">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7279829202571039">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="8406617899000116" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">botao_recomecar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-25" name="Go to layout (by name)" sid="5243636810732034" type="System">
+                    <param id="0" name="Layout">&quot;Tela2Fase1&quot;</param>
+                </action>
+                <action id="-13" name="Set time scale" sid="379944481289311" type="System">
+                    <param id="0" name="Time scale">1.0</param>
+                </action>
+                <action id="-21" name="Reset global variables" sid="1914424555150488" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="6554054770265603">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="7591585991814226" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">botao_salvar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-36" name="Save" sid="7400134585900808" type="System">
+                    <param id="0" name="Slot">&quot;mysave&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="1202341922896097" type="System">
+                    <param id="0" name="Seconds">120</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="481960065491583">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="3515464190499425" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">botao_carregar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-37" name="Load" sid="4471233322056329" type="System">
+                    <param id="0" name="Slot">&quot;mysave&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8675048193762185">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="1220938749576701" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">botao_voltar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-25" name="Go to layout (by name)" sid="2811823925207843" type="System">
+                    <param id="0" name="Layout">&quot;Tela1Fase1&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7325295760299725">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="4396013703418169" type="simon_andando">
+                    <param id="0" name="Object">sabio</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="9651346935533554" type="falasabio">
+                    <param id="0" name="X">600</param>
+                    <param id="1" name="Y">450</param>
+                </action>
+                <action id="-13" name="Set time scale" sid="2369385313495418" type="System">
+                    <param id="0" name="Time scale">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1243321374461025">
+            <conditions>
+                <condition id="0" name="On clicked" sid="135642616696419" type="okSabio" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="3446640027543395" type="okSabio" />
+                <action id="-9" name="Destroy" sid="5243962133723476" type="falasabio" />
+                <action id="-2" name="Go to layout" sid="516642281892917" type="System">
+                    <param id="0" name="Layout">Tela3Fase1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
